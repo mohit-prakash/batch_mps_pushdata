@@ -1,6 +1,6 @@
-package com.mps.batch_mps_pushdata.controller;
+package com.mps.controller;
 
-import com.mps.batch_mps_pushdata.service.PushService;
+import com.mps.service.PushService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;

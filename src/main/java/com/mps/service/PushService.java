@@ -1,7 +1,7 @@
-package com.mps.batch_mps_pushdata.service;
+package com.mps.service;
 
-import com.mps.batch_mps_pushdata.dto.EmployeeListDTO;
-import com.mps.batch_mps_pushdata.repository.PushRepository;
+import com.mps.dto.EmployeeListDTO;
+import com.mps.repository.PushRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
@@ -15,7 +15,7 @@ public class PushService {
     @Autowired
     private PushRepository repository;
     @Autowired
-    private KafkaTemplate<String,EmployeeListDTO> kafkaTemplate;
+    private KafkaTemplate<String,Object> kafkaTemplate;
     private EmployeeListDTO getEmpList(){
         Random random = new Random();
         int nextInt = random.nextInt(10);

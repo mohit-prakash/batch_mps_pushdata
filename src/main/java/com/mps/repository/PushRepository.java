@@ -1,18 +1,15 @@
-package com.mps.batch_mps_pushdata.repository;
+package com.mps.repository;
 
-import com.mps.batch_mps_pushdata.dto.EmployeeDTO;
-import com.mps.batch_mps_pushdata.dto.EmployeeListDTO;
-import com.mps.batch_mps_pushdata.rowmapper.EmpRowMapper;
+import com.mps.dto.EmployeeDTO;
+import com.mps.dto.EmployeeListDTO;
+import com.mps.rowmapper.EmpRowMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Repository;
 
 import javax.sql.DataSource;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Properties;
 
 @Repository

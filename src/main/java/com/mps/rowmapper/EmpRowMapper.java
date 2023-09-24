@@ -1,6 +1,6 @@
-package com.mps.batch_mps_pushdata.rowmapper;
+package com.mps.rowmapper;
 
-import com.mps.batch_mps_pushdata.dto.EmployeeDTO;
+import com.mps.dto.EmployeeDTO;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;
