@@ -1,4 +1,4 @@
-package com.mps.batch_mps_pushdata.configuration;
+package com.mps.configuration;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Qualifier;

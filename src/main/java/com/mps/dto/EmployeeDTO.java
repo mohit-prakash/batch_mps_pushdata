@@ -1,4 +1,4 @@
-package com.mps.batch_mps_pushdata.dto;
+package com.mps.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
